@@ -12,7 +12,6 @@ Full description of the challenge could be found in [Challenge.md](Challenge.md)
 
 ## Tech stack
 This is an easy HTML/CSS project
-I used [SASS](https://sass-lang.com/) for the first time
 I also used [Simple Grid](https://simplegrid.io/) 
 
 ## Preview
