@@ -10,7 +10,7 @@
 
 
     <!-- CSS-->
-    <link rel="stylesheet" href="grid/simple-grid.min.css" />
+    <link rel="stylesheet" href="grid/flexboxgrid.min.css" type="text/css">
     <link rel="stylesheet" href="main.css" />
 
     <!-- Icones -->
@@ -22,34 +22,33 @@
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
-        .attribution {
-            font-size: 11px;
-            text-align: center;
-        }
-        
-        .attribution a {
-            color: hsl(228, 45%, 44%);
-        }
+
     </style>
 </head>
 
 <body>
     <div class="container">
-        <div class="image">
-            <img src="assets/img/image-tanya.jpg" alt="" /></div>
-        <div class="slider">
-            <button class="previous"><i class="fa fa-angle-left fa-lg"></i></button>
-            <button class="next"><i class="fa fa-angle-right fa-lg"></i></button>
-        </div>
-        <div class="quote">
-            “ I’ve been interested in coding for a while but never taken the jump, until now. I couldn’t recommend this course enough. I’m now in the job of my dreams and so excited about the future. ”
-        </div>
-        <div class="author">
-            <div class="name">
-                Tanya Sinclair</div>
-            <div class="job">UX Engineer</div>
+        <div class="row reverse center-lg center-xs  middle-xs middle-lg">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 one">
+                <div class="image">
+                    <img src="assets/img/image-tanya.jpg" alt="" /></div>
+                <div class="slider">
+                    <button class="previous"><i class="fa fa-angle-left fa-lg"></i></button>
+                    <button class="next"><i class="fa fa-angle-right fa-lg"></i></button>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 two">
+                <div class="quote">
+                    “ I’ve been interested in coding for a while but never taken the jump, until now. I couldn’t recommend this course enough. I’m now in the job of my dreams and so excited about the future. ”
+                </div>
+                <div class="author">
+                    <div class="name">Tanya Sinclair</div>
+                    <div class="job">UX Engineer</div>
+                </div>
+            </div>
         </div>
     </div>
+
 
     <div class="attribution">
         Challenge by
