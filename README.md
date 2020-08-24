@@ -12,7 +12,7 @@ Full description of the challenge could be found in [Challenge.md](Challenge.md)
 
 ## Tech stack
 This is an easy HTML/CSS project
-I also used [Simple Grid](https://simplegrid.io/) 
+I used Flex Grid [Flex Grid](http://flexboxgrid.com/) & Jquery [Jquery](https://jquery.com/) 
 
 ## Preview
 The component could be seen [here](https://fm-coding-bootcamp-testimonial-slider.vercel.app/)
