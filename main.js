@@ -27,5 +27,34 @@ function loadStudent(student) {
 }
 
 $(document).ready(function() {
-    loadStudent(John)
-})
+
+    //On click on previous
+    $(".previous").click(function() {
+        if ($(".name").text() == "John Tarkpor") {
+            loadStudent(Tanya)
+        } else {
+            loadStudent(John)
+        }
+    });
+
+    //On click on next
+    $(".next").click(function() {
+        console.log("Next");
+        if ($(".name").text() == "John Tarkpor") {
+            loadStudent(Tanya)
+        } else {
+            loadStudent(John)
+        }
+    });
+
+    //Handle change with key arrows
+    $(document).keydown(function(e) {
+        if (e.keyCode == 39)  {
+            $(".next").click();
+        } else if (e.keyCode == 37) {
+            $(".previous").click();
+        }
+
+    });
+
+});
